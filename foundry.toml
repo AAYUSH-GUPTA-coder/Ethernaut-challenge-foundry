@@ -8,5 +8,5 @@ remappings = [
     "@openzeppelin-06/=lib/openzeppelin-contracts-06/",
 ]
 
-eth_rpc_url = "${SEPOLIA_RPC_URL}"
+eth_rpc_url = "${OPTIMISM_TEST_RPC_URL}"
 etherscan_api_key = "${ETHERSCAN_KEY}"

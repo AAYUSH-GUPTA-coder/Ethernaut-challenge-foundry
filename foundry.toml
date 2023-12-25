@@ -8,6 +8,5 @@ remappings = [
     "@openzeppelin-06/=lib/openzeppelin-contracts-06/",
 ]
 
-eth_rpc_url = 'https://misty-methodical-thunder.optimism-goerli.quiknode.pro/02cc433a1a06f00195c244728edf1d3079afd881/'
-# eth_rpc_url = 'https://rpc.ankr.com/eth_sepolia'
-etherscan_api_key = '${ETHERSCAN_KEY}'
+eth_rpc_url = "${SEPOLIA_RPC_URL}"
+etherscan_api_key = "${ETHERSCAN_KEY}"
